@@ -51,3 +51,7 @@ jacocoTestReport {
     }
 }
 
+checkstyle {
+    toolVersion = '6.10.1'
+    sourceSets = [project.sourceSets.main]
+}
